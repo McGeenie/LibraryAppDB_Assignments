@@ -60,6 +60,14 @@ public class BookPage extends BasePage {
         return Driver.getDriver().findElement(By.xpath(xpath));
     }
 
+    public void bookSearch(String bookName){
+        search.sendKeys(bookName);
+    }
+
+    public String getBookInfo (String infoName){
+        String locator = "//input[@name='"+infoName+"']";
+        return Driver.getDriver().findElement(By.xpath(locator)).getAttribute("value");
+    }
 
 
 }

@@ -13,3 +13,7 @@ where is_returned = 0;
 -- US03
 select count(*) from book_categories;
 select name from book_categories;
+
+-- US04
+select * from books
+where name = 'Clean Code Odil';
