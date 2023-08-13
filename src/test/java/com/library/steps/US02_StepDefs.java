@@ -8,7 +8,7 @@ import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
 import org.junit.Assert;
 
-public class Us02_StepDefs {
+public class US02_StepDefs {
 
     LoginPage loginPage = new LoginPage();
     DashBoardPage dashBoardPage = new DashBoardPage();
