@@ -37,3 +37,6 @@ select name from book_categories
             order by count(*)desc
             limit 1));
 
+select name, author, isbn from books
+where name = 'Head First Java';
+
